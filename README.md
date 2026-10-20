@@ -31,10 +31,17 @@ Copy the contents of both files into your LLM's system prompt or custom instruct
 
 ### Claude Code (Plugin Install)
 
-One command, and it works automatically whenever you ask to humanize text:
+Add the marketplace and install the plugin, and it works automatically whenever you ask to humanize text:
 
 ```bash
-claude plugin marketplace add https://github.com/lguz/humanize-writing-skill
+claude plugin marketplace add lguz/humanize-writing-skill
+claude plugin install humanize-writing@humanize-writing-skill
+```
+
+Or in one step from inside Claude Code (2.1.275 or later):
+
+```
+/plugin install humanize-writing --marketplace lguz/humanize-writing-skill
 ```
 
 After that, just say things like "humanize this" or "make this sound less AI" and Claude Code will use the skill automatically.

@@ -1,0 +1,14 @@
+{
+  "name": "humanize-writing",
+  "description": "Rewrites AI-generated text to sound like a real human wrote it. 3-pass editing system that catches vocabulary, structural patterns, and tone tells.",
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "author": {
+    "name": "Luis Guzman",
+    "url": "https://github.com/lguz"
+  },
+  "homepage": "https://github.com/lguz/humanize-writing-skill",
+  "repository": "https://github.com/lguz/humanize-writing-skill",
+  "license": "MIT",
+  "keywords": ["writing", "humanize", "editing", "ai-detection"]
+}
